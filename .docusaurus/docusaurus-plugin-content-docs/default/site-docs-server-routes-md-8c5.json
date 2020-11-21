@@ -1,0 +1,21 @@
+{
+  "unversionedId": "server/routes",
+  "id": "server/routes",
+  "isDocsHomePage": false,
+  "title": "List of Routes",
+  "description": "GET",
+  "source": "@site/docs/server/routes.md",
+  "slug": "/server/routes",
+  "permalink": "/docs/server/routes",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/routes.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Welcome to Peer Admit",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Health Check",
+    "permalink": "/docs/server/api/status"
+  }
+}

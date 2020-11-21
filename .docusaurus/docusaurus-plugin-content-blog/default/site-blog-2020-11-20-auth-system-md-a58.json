@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/choices/auth",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/blog/blog/2020-11-20-AuthSystem.md",
+  "source": "@site/blog/2020-11-20-AuthSystem.md",
+  "description": "Why I chose HMAC over RSA",
+  "date": "2020-11-20T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "authentication",
+      "permalink": "/blog/tags/authentication"
+    },
+    {
+      "label": "peeradmit",
+      "permalink": "/blog/tags/peeradmit"
+    }
+  ],
+  "title": "Choosing HMAC over RSA",
+  "readingTime": 0.845,
+  "truncated": false,
+  "nextItem": {
+    "title": "Choosing Next.js over Create React App",
+    "permalink": "/blog/choices/frontend"
+  }
+}

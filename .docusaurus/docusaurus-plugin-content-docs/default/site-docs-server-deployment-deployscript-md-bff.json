@@ -1,0 +1,17 @@
+{
+  "unversionedId": "server/deployment/deployscript",
+  "id": "server/deployment/deployscript",
+  "isDocsHomePage": false,
+  "title": "Using the Bundled Deployment Script",
+  "description": "Requirements",
+  "source": "@site/docs/server/deployment/deployscript.md",
+  "slug": "/server/deployment/deployscript",
+  "permalink": "/docs/server/deployment/deployscript",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/deployment/deployscript.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Getting User Dashboards",
+    "permalink": "/docs/server/api/dashboard"
+  }
+}

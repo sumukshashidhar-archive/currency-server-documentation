@@ -1,0 +1,17 @@
+{
+  "unversionedId": "welcomedocs",
+  "id": "welcomedocs",
+  "isDocsHomePage": false,
+  "title": "Welcome to Peer Admit",
+  "description": "Hey There",
+  "source": "@site/docs/gettingstarted.md",
+  "slug": "/",
+  "permalink": "/docs/",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/gettingstarted.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "List of Routes",
+    "permalink": "/docs/server/routes"
+  }
+}

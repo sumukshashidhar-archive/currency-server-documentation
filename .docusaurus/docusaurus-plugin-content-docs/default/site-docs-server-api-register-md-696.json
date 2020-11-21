@@ -1,0 +1,21 @@
+{
+  "unversionedId": "server/api/register",
+  "id": "server/api/register",
+  "isDocsHomePage": false,
+  "title": "Registration",
+  "description": "This route is to facilitate the registration of new users.",
+  "source": "@site/docs/server/api/register.md",
+  "slug": "/server/api/register",
+  "permalink": "/docs/server/api/register",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/register.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Streaming Updates",
+    "permalink": "/docs/server/api/message-stream"
+  },
+  "next": {
+    "title": "Login",
+    "permalink": "/docs/server/api/login"
+  }
+}

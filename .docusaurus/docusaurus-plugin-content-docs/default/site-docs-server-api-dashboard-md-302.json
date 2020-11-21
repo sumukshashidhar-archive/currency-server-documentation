@@ -1,0 +1,22 @@
+{
+  "unversionedId": "server/api/dashboard",
+  "id": "server/api/dashboard",
+  "isDocsHomePage": false,
+  "title": "Getting User Dashboards",
+  "description": "This route is to get data to display the user's dashboard!.",
+  "source": "@site/docs/server/api/dashboard.md",
+  "slug": "/server/api/dashboard",
+  "permalink": "/docs/server/api/dashboard",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/dashboard.md",
+  "version": "current",
+  "sidebar_label": "Dashboard",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Login",
+    "permalink": "/docs/server/api/login"
+  },
+  "next": {
+    "title": "Using the Bundled Deployment Script",
+    "permalink": "/docs/server/deployment/deployscript"
+  }
+}

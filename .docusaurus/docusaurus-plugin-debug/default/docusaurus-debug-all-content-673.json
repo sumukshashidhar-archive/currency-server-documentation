@@ -1,0 +1,415 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/sumuk/Documents/peeradmit-documentation/sidebars.js",
+          "docsDirPath": "/Users/sumuk/Documents/peeradmit-documentation/docs",
+          "mainDocId": "welcomedocs",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "welcomedocs"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Server Documentation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "server/routes"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "API",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "server/api/status"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "server/api/message-stream"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "server/api/register"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "server/api/login"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "server/api/dashboard"
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Deployment",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "server/deployment/deployscript"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/server/api/dashboard": "someSidebar",
+            "/docs/server/api/login": "someSidebar",
+            "/docs/server/api/message-stream": "someSidebar",
+            "/docs/server/api/register": "someSidebar",
+            "/docs/server/api/status": "someSidebar",
+            "/docs/server/deployment/deployscript": "someSidebar",
+            "/docs/server/routes": "someSidebar",
+            "/docs/": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "server/api/dashboard",
+              "id": "server/api/dashboard",
+              "isDocsHomePage": false,
+              "title": "Getting User Dashboards",
+              "description": "This route is to get data to display the user's dashboard!.",
+              "source": "@site/docs/server/api/dashboard.md",
+              "slug": "/server/api/dashboard",
+              "permalink": "/docs/server/api/dashboard",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/dashboard.md",
+              "version": "current",
+              "sidebar_label": "Dashboard",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Login",
+                "permalink": "/docs/server/api/login"
+              },
+              "next": {
+                "title": "Using the Bundled Deployment Script",
+                "permalink": "/docs/server/deployment/deployscript"
+              }
+            },
+            {
+              "unversionedId": "server/api/login",
+              "id": "server/api/login",
+              "isDocsHomePage": false,
+              "title": "Login",
+              "description": "This route is to authenticate existing users.",
+              "source": "@site/docs/server/api/login.md",
+              "slug": "/server/api/login",
+              "permalink": "/docs/server/api/login",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/login.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Registration",
+                "permalink": "/docs/server/api/register"
+              },
+              "next": {
+                "title": "Getting User Dashboards",
+                "permalink": "/docs/server/api/dashboard"
+              }
+            },
+            {
+              "unversionedId": "server/api/message-stream",
+              "id": "server/api/message-stream",
+              "isDocsHomePage": false,
+              "title": "Streaming Updates",
+              "description": "We will usually have announcements of updates, sales and other news.",
+              "source": "@site/docs/server/api/message-stream.md",
+              "slug": "/server/api/message-stream",
+              "permalink": "/docs/server/api/message-stream",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/message-stream.md",
+              "version": "current",
+              "sidebar_label": "Updates",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Health Check",
+                "permalink": "/docs/server/api/status"
+              },
+              "next": {
+                "title": "Registration",
+                "permalink": "/docs/server/api/register"
+              }
+            },
+            {
+              "unversionedId": "server/api/register",
+              "id": "server/api/register",
+              "isDocsHomePage": false,
+              "title": "Registration",
+              "description": "This route is to facilitate the registration of new users.",
+              "source": "@site/docs/server/api/register.md",
+              "slug": "/server/api/register",
+              "permalink": "/docs/server/api/register",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/register.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Streaming Updates",
+                "permalink": "/docs/server/api/message-stream"
+              },
+              "next": {
+                "title": "Login",
+                "permalink": "/docs/server/api/login"
+              }
+            },
+            {
+              "unversionedId": "server/api/status",
+              "id": "server/api/status",
+              "isDocsHomePage": false,
+              "title": "Health Check",
+              "description": "This is a simple route to check your connection to the server.",
+              "source": "@site/docs/server/api/status-check.md",
+              "slug": "/server/api/status",
+              "permalink": "/docs/server/api/status",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/status-check.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "List of Routes",
+                "permalink": "/docs/server/routes"
+              },
+              "next": {
+                "title": "Streaming Updates",
+                "permalink": "/docs/server/api/message-stream"
+              }
+            },
+            {
+              "unversionedId": "server/deployment/deployscript",
+              "id": "server/deployment/deployscript",
+              "isDocsHomePage": false,
+              "title": "Using the Bundled Deployment Script",
+              "description": "Requirements",
+              "source": "@site/docs/server/deployment/deployscript.md",
+              "slug": "/server/deployment/deployscript",
+              "permalink": "/docs/server/deployment/deployscript",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/deployment/deployscript.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Getting User Dashboards",
+                "permalink": "/docs/server/api/dashboard"
+              }
+            },
+            {
+              "unversionedId": "server/routes",
+              "id": "server/routes",
+              "isDocsHomePage": false,
+              "title": "List of Routes",
+              "description": "GET",
+              "source": "@site/docs/server/routes.md",
+              "slug": "/server/routes",
+              "permalink": "/docs/server/routes",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/routes.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Welcome to Peer Admit",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Health Check",
+                "permalink": "/docs/server/api/status"
+              }
+            },
+            {
+              "unversionedId": "welcomedocs",
+              "id": "welcomedocs",
+              "isDocsHomePage": false,
+              "title": "Welcome to Peer Admit",
+              "description": "Hey There",
+              "source": "@site/docs/gettingstarted.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/gettingstarted.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "List of Routes",
+                "permalink": "/docs/server/routes"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "choices/auth",
+          "metadata": {
+            "permalink": "/blog/choices/auth",
+            "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/blog/blog/2020-11-20-AuthSystem.md",
+            "source": "@site/blog/2020-11-20-AuthSystem.md",
+            "description": "Why I chose HMAC over RSA",
+            "date": "2020-11-20T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "authentication",
+                "permalink": "/blog/tags/authentication"
+              },
+              {
+                "label": "peeradmit",
+                "permalink": "/blog/tags/peeradmit"
+              }
+            ],
+            "title": "Choosing HMAC over RSA",
+            "readingTime": 0.845,
+            "truncated": false,
+            "nextItem": {
+              "title": "Choosing Next.js over Create React App",
+              "permalink": "/blog/choices/frontend"
+            }
+          }
+        },
+        {
+          "id": "choices/frontend",
+          "metadata": {
+            "permalink": "/blog/choices/frontend",
+            "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/blog/blog/2020-11-20-FrontendArch.md",
+            "source": "@site/blog/2020-11-20-FrontendArch.md",
+            "description": "Why Next.js over Create React App",
+            "date": "2020-11-20T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "frontend",
+                "permalink": "/blog/tags/frontend"
+              },
+              {
+                "label": "peeradmit",
+                "permalink": "/blog/tags/peeradmit"
+              }
+            ],
+            "title": "Choosing Next.js over Create React App",
+            "readingTime": 0.91,
+            "truncated": false,
+            "prevItem": {
+              "title": "Choosing HMAC over RSA",
+              "permalink": "/blog/choices/auth"
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          }
+        },
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/blog/blog/2020-11-18-Welcome.md",
+            "source": "@site/blog/2020-11-18-Welcome.md",
+            "description": "What this is",
+            "date": "2020-11-18T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "peeradmit",
+                "permalink": "/blog/tags/peeradmit"
+              }
+            ],
+            "title": "Welcome",
+            "readingTime": 0.835,
+            "truncated": false,
+            "prevItem": {
+              "title": "Choosing Next.js over Create React App",
+              "permalink": "/blog/choices/frontend"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "choices/auth",
+            "choices/frontend",
+            "welcome"
+          ]
+        }
+      ],
+      "blogTags": {
+        "authentication": {
+          "name": "authentication",
+          "items": [
+            "choices/auth"
+          ],
+          "permalink": "/blog/tags/authentication"
+        },
+        "peeradmit": {
+          "name": "peeradmit",
+          "items": [
+            "choices/auth",
+            "choices/frontend",
+            "welcome"
+          ],
+          "permalink": "/blog/tags/peeradmit"
+        },
+        "frontend": {
+          "name": "frontend",
+          "items": [
+            "choices/frontend"
+          ],
+          "permalink": "/blog/tags/frontend"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/hello"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

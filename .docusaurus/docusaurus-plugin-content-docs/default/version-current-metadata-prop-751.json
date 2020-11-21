@@ -1,0 +1,88 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Getting Started",
+        "items": [
+          {
+            "type": "link",
+            "label": "Welcome to Peer Admit",
+            "href": "/docs/"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Server Documentation",
+        "items": [
+          {
+            "type": "link",
+            "label": "List of Routes",
+            "href": "/docs/server/routes"
+          },
+          {
+            "collapsed": true,
+            "type": "category",
+            "label": "API",
+            "items": [
+              {
+                "type": "link",
+                "label": "Health Check",
+                "href": "/docs/server/api/status"
+              },
+              {
+                "type": "link",
+                "label": "Updates",
+                "href": "/docs/server/api/message-stream"
+              },
+              {
+                "type": "link",
+                "label": "Registration",
+                "href": "/docs/server/api/register"
+              },
+              {
+                "type": "link",
+                "label": "Login",
+                "href": "/docs/server/api/login"
+              },
+              {
+                "type": "link",
+                "label": "Dashboard",
+                "href": "/docs/server/api/dashboard"
+              }
+            ]
+          },
+          {
+            "collapsed": true,
+            "type": "category",
+            "label": "Deployment",
+            "items": [
+              {
+                "type": "link",
+                "label": "Using the Bundled Deployment Script",
+                "href": "/docs/server/deployment/deployscript"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/server/api/dashboard": "someSidebar",
+    "/docs/server/api/login": "someSidebar",
+    "/docs/server/api/message-stream": "someSidebar",
+    "/docs/server/api/register": "someSidebar",
+    "/docs/server/api/status": "someSidebar",
+    "/docs/server/deployment/deployscript": "someSidebar",
+    "/docs/server/routes": "someSidebar",
+    "/docs/": "someSidebar"
+  }
+}

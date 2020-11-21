@@ -1,0 +1,21 @@
+{
+  "unversionedId": "api/routes",
+  "id": "api/routes",
+  "isDocsHomePage": false,
+  "title": "List of Routes",
+  "description": "GET",
+  "source": "@site/docs/api/routes.md",
+  "slug": "/api/routes",
+  "permalink": "/docs/api/routes",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/api/routes.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Health Check",
+    "permalink": "/docs/api/status"
+  }
+}

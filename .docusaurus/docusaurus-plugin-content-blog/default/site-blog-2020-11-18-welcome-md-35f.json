@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/blog/blog/2020-11-18-Welcome.md",
+  "source": "@site/blog/2020-11-18-Welcome.md",
+  "description": "What this is",
+  "date": "2020-11-18T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "peeradmit",
+      "permalink": "/blog/tags/peeradmit"
+    }
+  ],
+  "title": "Welcome",
+  "readingTime": 0.835,
+  "truncated": false,
+  "prevItem": {
+    "title": "Choosing Next.js over Create React App",
+    "permalink": "/blog/choices/frontend"
+  }
+}

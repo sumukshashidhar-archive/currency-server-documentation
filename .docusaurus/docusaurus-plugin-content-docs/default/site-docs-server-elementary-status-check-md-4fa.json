@@ -1,0 +1,21 @@
+{
+  "unversionedId": "server/elementary/status",
+  "id": "server/elementary/status",
+  "isDocsHomePage": false,
+  "title": "Health Check",
+  "description": "This is a simple route to check your connection to the server.",
+  "source": "@site/docs/server/elementary/status-check.md",
+  "slug": "/server/elementary/status",
+  "permalink": "/docs/server/elementary/status",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/elementary/status-check.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "List of Routes",
+    "permalink": "/docs/server/routes"
+  },
+  "next": {
+    "title": "Streaming Updates",
+    "permalink": "/docs/server/api/message-stream"
+  }
+}

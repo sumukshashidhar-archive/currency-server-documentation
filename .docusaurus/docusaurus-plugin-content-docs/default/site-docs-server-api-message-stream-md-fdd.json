@@ -1,0 +1,22 @@
+{
+  "unversionedId": "server/api/message-stream",
+  "id": "server/api/message-stream",
+  "isDocsHomePage": false,
+  "title": "Streaming Updates",
+  "description": "We will usually have announcements of updates, sales and other news.",
+  "source": "@site/docs/server/api/message-stream.md",
+  "slug": "/server/api/message-stream",
+  "permalink": "/docs/server/api/message-stream",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/message-stream.md",
+  "version": "current",
+  "sidebar_label": "Updates",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Health Check",
+    "permalink": "/docs/server/api/status"
+  },
+  "next": {
+    "title": "Registration",
+    "permalink": "/docs/server/api/register"
+  }
+}

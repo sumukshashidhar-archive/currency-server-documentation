@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/choices/frontend",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/blog/blog/2020-11-20-FrontendArch.md",
+  "source": "@site/blog/2020-11-20-FrontendArch.md",
+  "description": "Why Next.js over Create React App",
+  "date": "2020-11-20T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "frontend",
+      "permalink": "/blog/tags/frontend"
+    },
+    {
+      "label": "peeradmit",
+      "permalink": "/blog/tags/peeradmit"
+    }
+  ],
+  "title": "Choosing Next.js over Create React App",
+  "readingTime": 0.91,
+  "truncated": false,
+  "prevItem": {
+    "title": "Choosing HMAC over RSA",
+    "permalink": "/blog/choices/auth"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "authentication": {
+    "allTagsPath": "/blog/tags",
+    "slug": "authentication",
+    "name": "authentication",
+    "count": 1,
+    "permalink": "/blog/tags/authentication"
+  },
+  "peeradmit": {
+    "allTagsPath": "/blog/tags",
+    "slug": "peeradmit",
+    "name": "peeradmit",
+    "count": 3,
+    "permalink": "/blog/tags/peeradmit"
+  },
+  "frontend": {
+    "allTagsPath": "/blog/tags",
+    "slug": "frontend",
+    "name": "frontend",
+    "count": 1,
+    "permalink": "/blog/tags/frontend"
+  },
+  "hello": {
+    "allTagsPath": "/blog/tags",
+    "slug": "hello",
+    "name": "hello",
+    "count": 1,
+    "permalink": "/blog/tags/hello"
+  }
+}

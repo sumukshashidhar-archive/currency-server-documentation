@@ -1,0 +1,21 @@
+{
+  "unversionedId": "server/api/login",
+  "id": "server/api/login",
+  "isDocsHomePage": false,
+  "title": "Login",
+  "description": "This route is to authenticate existing users.",
+  "source": "@site/docs/server/api/login.md",
+  "slug": "/server/api/login",
+  "permalink": "/docs/server/api/login",
+  "editUrl": "https://github.com/sumukshashidhar/peeradmit-documentation/edit/master/peeradmit/docs/server/api/login.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Registration",
+    "permalink": "/docs/server/api/register"
+  },
+  "next": {
+    "title": "Getting User Dashboards",
+    "permalink": "/docs/server/api/dashboard"
+  }
+}

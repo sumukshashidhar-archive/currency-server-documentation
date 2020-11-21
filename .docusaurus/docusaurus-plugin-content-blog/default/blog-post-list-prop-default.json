@@ -1,0 +1,17 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Choosing HMAC over RSA",
+      "permalink": "/blog/choices/auth"
+    },
+    {
+      "title": "Choosing Next.js over Create React App",
+      "permalink": "/blog/choices/frontend"
+    },
+    {
+      "title": "Welcome",
+      "permalink": "/blog/welcome"
+    }
+  ]
+}
